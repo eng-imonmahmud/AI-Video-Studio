@@ -114,7 +114,7 @@ graph TD
 ```text
 AI_Video_Studio/
 ├── mainuniversal.py              # Main Python source code (CustomTkinter GUI)
-├── AI_Video_Studio_(V21.0).exe   # Standalone Windows Executable (Available in Releases)
+├── AI_Video_Studio_(V21.0).exe   # Standalone Windows Executable (Releases)
 ├── screenshots/                  # Application UI screenshots (All 4 Tabs)
 │   ├── 1_input_files.jpg
 │   ├── 2_providers_settings.jpg
@@ -136,23 +136,33 @@ AI_Video_Studio/
 
 ---
 
-## 🚀 Setup & Usage Guide
+## 🚀 Setup & Downloads
 
-### Option 1: Standalone Executable (.exe) [Recommended]
-1. Download `AI_Video_Studio_(V21.0).exe` from the [GitHub Releases Tab](https://github.com/eng-imonmahmud/AI-Video-Studio/releases).
-2. Run the executable directly on Windows (No Python installation required).
+### 🪟 Windows (.exe)
+Download `AI_Video_Studio_(V21.0).exe` directly from [GitHub Releases](https://github.com/eng-imonmahmud/AI-Video-Studio/releases/tag/v21.0) and double-click to run without Python.
 
-### Option 2: Running from Source Code
+### 🐧 Linux Executable Build
+Download the split archive parts from [GitHub Releases v21.0](https://github.com/eng-imonmahmud/AI-Video-Studio/releases/tag/v21.0):
+1. Download `AI_Video_Studio_Linux_V21.0.zip.001` & `AI_Video_Studio_Linux_V21.0.zip.002`
+2. Combine and extract in terminal:
+   ```bash
+   cat AI_Video_Studio_Linux_V21.0.zip.001 AI_Video_Studio_Linux_V21.0.zip.002 > AI_Video_Studio_Linux_V21.0.zip
+   unzip AI_Video_Studio_Linux_V21.0.zip
+   chmod +x AI_Video_Studio_Linux_V21.0
+   ./AI_Video_Studio_Linux_V21.0
+   ```
+
+### 🐍 Running from Python Source Code
 1. Clone the repository:
    ```bash
    git clone https://github.com/eng-imonmahmud/AI-Video-Studio.git
    cd AI-Video-Studio
    ```
-2. Install required Python dependencies:
+2. Install required dependencies:
    ```bash
    pip install customtkinter pillow requests openai-whisper google-genai openai urllib3
    ```
-3. Run the application:
+3. Launch the application:
    ```bash
    python mainuniversal.py
    ```
