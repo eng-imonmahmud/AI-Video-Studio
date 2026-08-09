@@ -1,0 +1,37 @@
+# Dedicated Python Environment (Portable)
+WPy64-31241/
+
+# Python compiled files & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Binaries & Large Executables (>100MB / non-source binaries)
+*.exe
+ffmpeg
+ffmpeg.exe
+ImageMagick/
+
+# User Data & Processing Directories
+Input/*
+!Input/.gitkeep
+Output/*
+!Output/.gitkeep
+Tempdata/*
+!Tempdata/.gitkeep
+
+# Secrets & Local Configurations
+PexelsAPI/settings.json
+*.env
+*.key
+
+# IDE & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
