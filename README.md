@@ -142,15 +142,18 @@ AI_Video_Studio/
 Download `AI_Video_Studio_(V21.0).exe` directly from [GitHub Releases](https://github.com/eng-imonmahmud/AI-Video-Studio/releases/tag/v21.0) and double-click to run without Python.
 
 ### 🐧 Linux Executable Build
-Download the split archive parts from [GitHub Releases v21.0](https://github.com/eng-imonmahmud/AI-Video-Studio/releases/tag/v21.0):
-1. Download `AI_Video_Studio_Linux_V21.0.zip.001` & `AI_Video_Studio_Linux_V21.0.zip.002`
-2. Combine and extract in terminal:
-   ```bash
-   cat AI_Video_Studio_Linux_V21.0.zip.001 AI_Video_Studio_Linux_V21.0.zip.002 > AI_Video_Studio_Linux_V21.0.zip
-   unzip AI_Video_Studio_Linux_V21.0.zip
-   chmod +x AI_Video_Studio_Linux_V21.0
-   ./AI_Video_Studio_Linux_V21.0
-   ```
+You can download the single-file Linux executable directly from Google Drive or grab the split archive parts from GitHub Releases:
+
+- **🔗 Direct Download (Single File - 2.7 GB)**: [Google Drive Download Link](https://drive.google.com/file/d/1sUT5SJ2ALVBB29TqtfPlGLjB9cGxKa_V/view?usp=sharing)
+- **📦 Split Archive Download**: [GitHub Releases v21.0](https://github.com/eng-imonmahmud/AI-Video-Studio/releases/tag/v21.0) (Download `AI_Video_Studio_Linux_V21.0.zip.001` & `AI_Video_Studio_Linux_V21.0.zip.002`)
+
+#### Extraction & Run Instructions for Split Archive:
+```bash
+cat AI_Video_Studio_Linux_V21.0.zip.001 AI_Video_Studio_Linux_V21.0.zip.002 > AI_Video_Studio_Linux_V21.0.zip
+unzip AI_Video_Studio_Linux_V21.0.zip
+chmod +x AI_Video_Studio_Linux_V21.0
+./AI_Video_Studio_Linux_V21.0
+```
 
 ### 🐍 Running from Python Source Code
 1. Clone the repository:
