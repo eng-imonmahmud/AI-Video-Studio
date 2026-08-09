@@ -15,9 +15,9 @@
 | :---: | :---: |
 | ![1. Input Files](screenshots/1_input_files.jpg) | ![2. Providers & Settings](screenshots/2_providers_settings.jpg) |
 
-| 3️⃣ Video & Audio FX Toggles | 4️⃣ Render & Batch Production |
+| 3️⃣ Video & Audio FX Toggles | 4️⃣ Render & Production Console |
 | :---: | :---: |
-| ![3. Video/Audio FX Toggles](screenshots/3_video_audio_fx.jpg) | ![4. Render](screenshots/4_render_production.jpg) |
+| ![3. Video/Audio FX Toggles](screenshots/3_video_audio_fx.jpg) | ![4. Render & Production](screenshots/4_render_production.jpg) |
 
 ---
 
