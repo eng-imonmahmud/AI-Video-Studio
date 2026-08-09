@@ -9,11 +9,15 @@
 
 ---
 
-## 📸 Application Screenshots
+## 📸 Application Interface Screenshots (All 4 Tabs)
 
-| ⚙️ Providers & Settings | 🎨 Video/Audio FX Toggles |
+| 1️⃣ Input Files & Assets | 2️⃣ Providers & Settings |
 | :---: | :---: |
-| ![Providers & Settings](screenshots/providers_settings.jpg) | ![Video/Audio FX Toggles](screenshots/video_fx_toggles.jpg) |
+| ![1. Input Files](screenshots/1_input_files.jpg) | ![2. Providers & Settings](screenshots/2_providers_settings.jpg) |
+
+| 3️⃣ Video & Audio FX Toggles | 4️⃣ Render & Batch Production |
+| :---: | :---: |
+| ![3. Video/Audio FX Toggles](screenshots/3_video_audio_fx.jpg) | ![4. Render](screenshots/4_render_production.jpg) |
 
 ---
 
@@ -111,9 +115,11 @@ graph TD
 AI_Video_Studio/
 ├── mainuniversal.py              # Main Python source code (CustomTkinter GUI)
 ├── AI_Video_Studio_(V21.0).exe   # Standalone Windows Executable (Available in Releases)
-├── screenshots/                  # Application UI screenshots
-│   ├── providers_settings.jpg
-│   └── video_fx_toggles.jpg
+├── screenshots/                  # Application UI screenshots (All 4 Tabs)
+│   ├── 1_input_files.jpg
+│   ├── 2_providers_settings.jpg
+│   ├── 3_video_audio_fx.jpg
+│   └── 4_render_production.jpg
 ├── Font/                         # Custom font assets (Arial, DejaVu, Nirmala, etc.)
 ├── ImageMagick/                  # Image processing utilities
 ├── Input/                        # Input voiceover audio files (.mp3, .wav, .m4a)
