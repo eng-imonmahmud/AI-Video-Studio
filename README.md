@@ -9,6 +9,14 @@
 
 ---
 
+## 📸 Application Screenshots
+
+| ⚙️ Providers & Settings | 🎨 Video/Audio FX Toggles |
+| :---: | :---: |
+| ![Providers & Settings](screenshots/providers_settings.jpg) | ![Video/Audio FX Toggles](screenshots/video_fx_toggles.jpg) |
+
+---
+
 ## 🔄 Application Workflow Diagram
 
 ```mermaid
@@ -103,6 +111,9 @@ graph TD
 AI_Video_Studio/
 ├── mainuniversal.py              # Main Python source code (CustomTkinter GUI)
 ├── AI_Video_Studio_(V21.0).exe   # Standalone Windows Executable (Available in Releases)
+├── screenshots/                  # Application UI screenshots
+│   ├── providers_settings.jpg
+│   └── video_fx_toggles.jpg
 ├── Font/                         # Custom font assets (Arial, DejaVu, Nirmala, etc.)
 ├── ImageMagick/                  # Image processing utilities
 ├── Input/                        # Input voiceover audio files (.mp3, .wav, .m4a)
