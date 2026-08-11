@@ -175,7 +175,6 @@ chmod +x AI_Video_Studio_Linux_V21.0
 ## 👨‍💻 Developer Information
 
 - **Developer**: Imon Mahmud
-- **Email**: [imon.mahmud.official@hotmail.com](mailto:imon.mahmud.official@hotmail.com)
 - **Version**: V21.0 Advanced
 - **GitHub**: [@eng-imonmahmud](https://github.com/eng-imonmahmud)
 
